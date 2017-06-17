@@ -5,5 +5,10 @@
   var ctx = gameCanvas.getContext('2d');
   ctx.fillStyle = 'black';
   ctx.fillRect(0, 0, window.screen.availWidth, window.screen.availHeight);
-  console.log('isoville finished v 0.1');
+  
+  window.addEventListener('scroll', function(e) {
+    e.preventDefault();
+  });
+  
+  console.log('isoville finished v 0.2');
 })();
